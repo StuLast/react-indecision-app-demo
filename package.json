@@ -1,0 +1,27 @@
+{
+  "name": "react-indecision-app-demo",
+  "version": "1.0.0",
+  "description": "React Indecision App Demo",
+  "main": "index.js",
+  "scripts": {
+    "dev-server": "live-server ./public_html",
+    "babel": "babel ./src/app.js --out-file=./public_html/scripts/app.js --presets=@babel/env,@babel/react --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StuLast/react-indecision-app-demo.git"
+  },
+  "author": "Stu Last",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StuLast/react-indecision-app-demo/issues"
+  },
+  "homepage": "https://github.com/StuLast/react-indecision-app-demo#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "live-server": "^1.2.1"
+  }
+}
